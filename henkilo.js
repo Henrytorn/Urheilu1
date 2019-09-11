@@ -33,9 +33,11 @@ class Urheilija extends Henkilo{
 }
 let jere = new Urheilija("jere", "karhu", "jerkku", "1.1.2019", " dsds" , "23kg", "pingis", "pm pronssi");
 let uti = new Urheilija("jere", "karhu", "jerkku", "1.1.2019", " dsds" , "23kg", "jalkapallo", "pm pronssi");
+let jarno = new Urheilija("jere", "karhu", "jerkku", "1.1.2019", " dsds" , "23kg", "tennis", "pm pronssi");
 console.log(jere);
 
 console.log("minun lajini on " + jere.laji);
+console.log("minun lajini on " + jarno.laji);
 
 jere.lajiTsekkaus();
 
